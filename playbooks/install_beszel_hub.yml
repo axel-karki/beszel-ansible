@@ -1,0 +1,5 @@
+- name: Install Beszel Hub
+  hosts: beszel
+  become: yes
+  roles:
+    - beszel
