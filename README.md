@@ -73,11 +73,11 @@ docker-pr 6629 root    7u  IPv4  38013      0t0  TCP *:http-alt (LISTEN)
 7. **Add the System in the UI**
    Go back to the Beszel UI and register the monitored system.
 
-<img width="671" alt="Screenshot 2025-05-26 at 5 32 26 AM" src="https://github.com/user-attachments/assets/d09988b6-a662-45cf-b18f-48bb01ea85ac" />
+<img width="471" alt="Screenshot 2025-05-26 at 5 32 26 AM" src="https://github.com/user-attachments/assets/d09988b6-a662-45cf-b18f-48bb01ea85ac" />
 
 
 8. **Start Monitoring**
    You should now see real-time system activity and metrics in the dashboard.
-<img width="1372" alt="Screenshot 2025-05-26 at 5 32 52 AM" src="https://github.com/user-attachments/assets/15807e44-ab59-4c4e-aaa5-acc03bbd2806" />
+<img width="1172" alt="Screenshot 2025-05-26 at 5 32 52 AM" src="https://github.com/user-attachments/assets/15807e44-ab59-4c4e-aaa5-acc03bbd2806" />
 
-<img width="803" alt="Screenshot 2025-05-26 at 5 33 34 AM" src="https://github.com/user-attachments/assets/14a1ea77-2981-420f-afe8-95832766a660" />
+<img width="603" alt="Screenshot 2025-05-26 at 5 33 34 AM" src="https://github.com/user-attachments/assets/14a1ea77-2981-420f-afe8-95832766a660" />
