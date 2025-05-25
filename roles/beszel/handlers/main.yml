@@ -1,4 +1,0 @@
-- name: Restart Beszel
-  systemd:
-    name: beszel
-    state: restarted

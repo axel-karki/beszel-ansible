@@ -4,9 +4,6 @@
   vars:
     beszel_ssh_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAtNz9vj2a4dh+Bs4D+v6Ov2QXiZIS8TMNlnObYmlaNS"
   tasks:
-    - name: Gather facts about the system
-      ansible.builtin.setup:
-
     - name: Update apt package index
       ansible.builtin.apt:
         update_cache: yes

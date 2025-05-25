@@ -1,5 +1,0 @@
-beszel_install_dir: /opt/beszel
-beszel_http_port: 8090
-beszel_user: root
-beszel_deb_url: "https://github.com/henrygd/beszel/releases/download/v0.11.1/beszel-agent_0.11.1_linux_amd64.deb"
-beszel_deb_local_path: "/tmp/beszel-agent.deb"

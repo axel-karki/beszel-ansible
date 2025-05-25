@@ -2,9 +2,6 @@
   hosts: beszel
   become: yes
   tasks:
-    - name: Gather facts about the system
-      ansible.builtin.setup:
-
     - name: Update apt package index
       ansible.builtin.apt:
         update_cache: yes
