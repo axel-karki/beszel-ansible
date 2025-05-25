@@ -47,38 +47,37 @@ docker-pr 6629 root    7u  IPv4  38013      0t0  TCP *:http-alt (LISTEN)
 1. **Access the Beszel Hub UI**
    Open your browser and go to the IP or domain where the Beszel Hub is running (e.g., `http://<hub-ip>:8080`).
 
-   ![Screenshot 2025-05-22 at 10.08.44 PM.png](attachment:0c130b85-6bb1-4b54-b527-e858ae3ca3f9:Screenshot_2025-05-22_at_10.08.44_PM.png)
+<img width="1368" alt="Screenshot 2025-05-26 at 5 31 16 AM" src="https://github.com/user-attachments/assets/a7af1125-685d-47c8-9c01-e1814ad195a9" />
 
-3. **Create a New Account**
+2. **Create a New Account**
    Sign up using the web interface to access the dashboard.
 
-4. **Copy the Provided SSH Key**
+3. **Copy the Provided SSH Key**
    After logging in, copy the SSH key shown in the agent setup instructions.
 
-   ![Screenshot 2025-05-22 at 10.59.12 PM.png](attachment:82b43c62-c1c0-449a-a13e-2d8ee71c6f0d:Screenshot_2025-05-22_at_10.59.12_PM.png)
+<img width="607" alt="Screenshot 2025-05-26 at 5 31 45 AM" src="https://github.com/user-attachments/assets/31190b3a-f602-49ea-ad97-8ee82642fc43" />
 
-6. **Update Agent Variables**
+4. **Update Agent Variables**
    Paste the SSH key into the `agent_docker_beszel.yml` playbook variables.
 
-7. **Configure Inventory**
+5. **Configure Inventory**
    Add the target hosts in `inventory/hosts.ini` under a relevant group.
 
-8. **Run the Agent Playbook**
+6. **Run the Agent Playbook**
    Execute the playbook to install the Beszel Agent on each target system:
 
    ```bash
    ansible-playbook playbooks/agent_docker_beszel.yml
    ```
 
-9. **Add the System in the UI**
+7. **Add the System in the UI**
    Go back to the Beszel UI and register the monitored system.
 
-   ![Screenshot 2025-05-22 at 11.04.48 PM.png](attachment:712d3a44-84c1-4114-8890-6150eaacd242:Screenshot_2025-05-22_at_11.04.48_PM.png)
+<img width="671" alt="Screenshot 2025-05-26 at 5 32 26 AM" src="https://github.com/user-attachments/assets/d09988b6-a662-45cf-b18f-48bb01ea85ac" />
 
-11. **Start Monitoring**
+
+8. **Start Monitoring**
    You should now see real-time system activity and metrics in the dashboard.
+<img width="1372" alt="Screenshot 2025-05-26 at 5 32 52 AM" src="https://github.com/user-attachments/assets/15807e44-ab59-4c4e-aaa5-acc03bbd2806" />
 
-![Screenshot 2025-05-22 at 11.05.32 PM.png](attachment:a2e6cc06-5bac-4a54-ad01-fb1de637de3b:Screenshot_2025-05-22_at_11.05.32_PM.png)
-
-![Screenshot 2025-05-22 at 11.06.18 PM.png](attachment:56b0443e-4fe2-45de-b2fa-131f2c3b8d9d:Screenshot_2025-05-22_at_11.06.18_PM.png)
-
+<img width="803" alt="Screenshot 2025-05-26 at 5 33 34 AM" src="https://github.com/user-attachments/assets/14a1ea77-2981-420f-afe8-95832766a660" />
