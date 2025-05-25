@@ -55,7 +55,7 @@ docker-pr 6629 root    7u  IPv4  38013      0t0  TCP *:http-alt (LISTEN)
 3. **Copy the Provided SSH Key**
    After logging in, copy the SSH key shown in the agent setup instructions.
 
-<img width="607" alt="Screenshot 2025-05-26 at 5 31 45 AM" src="https://github.com/user-attachments/assets/31190b3a-f602-49ea-ad97-8ee82642fc43" />
+<img width="407" alt="Screenshot 2025-05-26 at 5 31 45 AM" src="https://github.com/user-attachments/assets/31190b3a-f602-49ea-ad97-8ee82642fc43" />
 
 4. **Update Agent Variables**
    Paste the SSH key into the `agent_docker_beszel.yml` playbook variables.
